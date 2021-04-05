@@ -1,4 +1,4 @@
-package br.com.zup.edu.keymanager
+package br.com.zup.edu.keymanager.busca
 
 import br.com.zup.edu.ConsultaChavePixResponse
 import br.com.zup.edu.TipoConta

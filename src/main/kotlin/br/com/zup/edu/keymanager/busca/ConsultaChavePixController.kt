@@ -1,4 +1,4 @@
-package br.com.zup.edu.keymanager
+package br.com.zup.edu.keymanager.busca
 
 import br.com.zup.edu.ConsultaChavePixRequest
 import br.com.zup.edu.KeyManagerConsultaServiceGrpc
@@ -45,7 +45,8 @@ class ConsultaChavePixController(
                                                                                     .setClienteId(clienteId.toString())
                                                                                     .build())
 
-        return HttpResponse.ok(ListaChavesPixResponse(response))
+        val chaves = response.chavesList.map { ListaChavesPixResponse(it) }
+        return HttpResponse.ok(chaves)
 
     }
 

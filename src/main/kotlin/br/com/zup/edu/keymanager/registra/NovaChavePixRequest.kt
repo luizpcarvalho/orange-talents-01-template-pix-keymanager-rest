@@ -1,9 +1,10 @@
-package br.com.zup.edu.keymanager
+package br.com.zup.edu.keymanager.registra
 
 import br.com.caelum.stella.validation.CPFValidator
 import br.com.zup.edu.RegistrarChavePixRequest
 import br.com.zup.edu.TipoChave
 import br.com.zup.edu.TipoConta
+import br.com.zup.edu.keymanager.ValidPixKey
 import io.micronaut.core.annotation.Introspected
 import io.micronaut.validation.validator.constraints.EmailValidator
 import java.util.*

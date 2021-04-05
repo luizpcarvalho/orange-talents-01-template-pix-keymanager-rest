@@ -1,5 +1,6 @@
 package br.com.zup.edu.keymanager
 
+import br.com.zup.edu.keymanager.registra.NovaChavePixRequest
 import io.micronaut.core.annotation.AnnotationValue
 import io.micronaut.validation.validator.constraints.ConstraintValidator
 import io.micronaut.validation.validator.constraints.ConstraintValidatorContext

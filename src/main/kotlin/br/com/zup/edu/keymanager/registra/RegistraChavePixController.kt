@@ -1,4 +1,4 @@
-package br.com.zup.edu.keymanager
+package br.com.zup.edu.keymanager.registra
 
 import br.com.zup.edu.KeyManagerRegistraServiceGrpc
 import io.micronaut.http.HttpResponse

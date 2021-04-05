@@ -1,15 +1,13 @@
-package br.com.zup.edu.keymanager
+package br.com.zup.edu.keymanager.remove
 
 import br.com.zup.edu.KeyManagerRemoveServiceGrpc
 import br.com.zup.edu.RemoveChavePixRequest
 import io.micronaut.http.HttpResponse
-import io.micronaut.http.annotation.Body
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Delete
 import io.micronaut.validation.Validated
 import org.slf4j.LoggerFactory
 import java.util.*
-import javax.validation.Valid
 
 @Validated
 @Controller("/api/v1/clientes/{clienteId}")
